@@ -1,0 +1,32 @@
+/* src/App.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    padding: 1em;
+    background-color: #f5f5f5;
+}
+
+.book-card {
+    border: 1px solid #ddd;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 5px;
+}
+
+.book-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 1em;
+    margin-bottom: 1em;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
